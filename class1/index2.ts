@@ -10,6 +10,8 @@ class student extends Person {
 class Teacher extends Person {
   course?: string;
   timing?: string;
+  // course?: string;
+  // timing?: string;
 }
 class Course {
   classTeacher?: Teacher;
@@ -18,13 +20,13 @@ class Course {
 }
 const student1: student = new student();
 student1.name = "Student1";
-student1.rollNumber = "1";
+// student1.rollNumber = "1";
 const student2: student = new student();
 student2.name = "Student2";
-student2.rollNumber = "2";
+// student2.rollNumber = "2";
 const student3: student = new student();
 student3.name = "Student3";
-student3.rollNumber = "3";
+// student3.rollNumber = "3";
 
 const teacher: Teacher = new Teacher();
 teacher.name = "Teacher 1";
